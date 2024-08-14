@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cbd-quicklinks-client-side-solution",
+    "id": "f96aab03-786c-4672-a416-30d54e9563a8",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "cbd-quicklinks description"
+      },
+      "longDescription": {
+        "default": "cbd-quicklinks description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "cbd-quicklinks Feature",
+        "description": "The feature that activates elements of the cbd-quicklinks solution.",
+        "id": "f046fdc8-453f-4a7f-be2b-1cb0b3fe7a00",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cbd-quicklinks.sppkg"
+  }
+}

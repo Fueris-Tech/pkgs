@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cbd-home-carousel-client-side-solution",
+    "id": "fe69d4ca-c29a-4f52-b851-5710fb84d668",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "cbd-home-carousel description"
+      },
+      "longDescription": {
+        "default": "cbd-home-carousel description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "cbd-home-carousel Feature",
+        "description": "The feature that activates elements of the cbd-home-carousel solution.",
+        "id": "db166a17-9244-48a5-839e-f5bb724f1d4d",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cbd-home-carousel.sppkg"
+  }
+}

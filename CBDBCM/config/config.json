@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cbdbcm-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cbdbcm/CbdbcmWebPart.js",
+          "manifest": "./src/webparts/cbdbcm/CbdbcmWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CbdbcmWebPartStrings": "lib/webparts/cbdbcm/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

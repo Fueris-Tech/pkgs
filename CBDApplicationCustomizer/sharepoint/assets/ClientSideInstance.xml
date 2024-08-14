@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+    <ClientSideComponentInstance
+        Title="CbdAppCustomizer"
+        Location="ClientSideExtension.ApplicationCustomizer"
+        ComponentId="5fd0cc92-4710-4e0e-aa92-df1c7612003a"
+        Properties="{&quot;testMessage&quot;:&quot;Test message&quot;}">
+    </ClientSideComponentInstance>
+</Elements>

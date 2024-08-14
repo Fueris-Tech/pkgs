@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cbd-quicklinks-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cbdQuicklinks/CbdQuicklinksWebPart.js",
+          "manifest": "./src/webparts/cbdQuicklinks/CbdQuicklinksWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CbdQuicklinksWebPartStrings": "lib/webparts/cbdQuicklinks/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
