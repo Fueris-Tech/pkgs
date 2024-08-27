@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cbdbcm-client-side-solution",
+    "id": "b6930ccf-f9c3-40b9-a4c1-d7520b3afbe7",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "cbdbcm description"
+      },
+      "longDescription": {
+        "default": "cbdbcm description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "cbdbcm Feature",
+        "description": "The feature that activates elements of the cbdbcm solution.",
+        "id": "27b582f5-682d-42cb-80fa-4c7c7f691ad3",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cbdbcm.sppkg"
+  }
+}

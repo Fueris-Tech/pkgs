@@ -1,0 +1,39 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "c46acf6e-9bbd-4341-a09f-3960aeed1f61",
+  "alias": "CbdGalleryWebPart",
+  "componentType": "WebPart",
+  "supportsFullBleed": true,
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "CBD Gallery"
+      },
+      "description": {
+        "default": "CBD Gallery description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "CBD Gallery",
+        "link": "###",
+        "detaillink": "###",
+        "count": 3,
+        "slides": 10
+      }
+    }
+  ]
+}

@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cbd-search-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cbdSearch/CbdSearchWebPart.js",
+          "manifest": "./src/webparts/cbdSearch/CbdSearchWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CbdSearchWebPartStrings": "lib/webparts/cbdSearch/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

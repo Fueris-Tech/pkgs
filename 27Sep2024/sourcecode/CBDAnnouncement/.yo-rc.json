@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.18.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.0",
+    "libraryName": "cbd-announcement",
+    "libraryId": "87263e19-e23f-47ab-9b2e-61f2ae9a5c94",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "cbd-announcement",
+    "solutionShortDescription": "cbd-announcement description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

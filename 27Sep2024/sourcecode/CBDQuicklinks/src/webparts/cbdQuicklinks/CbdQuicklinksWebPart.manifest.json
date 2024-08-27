@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "7d7206bb-8e8c-4b95-b11b-fcbb1ac6196f",
+  "alias": "CbdQuicklinksWebPart",
+  "componentType": "WebPart",
+  "supportsFullBleed": true,
+
+  "version": "*",
+  "manifestVersion": 2,
+
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+    "group": { "default": "Advanced" },
+    "title": { "default": "CBD Quicklinks" },
+    "description": { "default": "CBD Quicklinks" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      "description": "CBD Quicklinks",
+      "count":20
+    }
+  }]
+}

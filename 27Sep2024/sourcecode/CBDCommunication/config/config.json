@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cbd-communication-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cbdCommunication/CbdCommunicationWebPart.js",
+          "manifest": "./src/webparts/cbdCommunication/CbdCommunicationWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CbdCommunicationWebPartStrings": "lib/webparts/cbdCommunication/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

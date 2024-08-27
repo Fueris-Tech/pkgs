@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "45a67e87-2e44-4080-8402-f0bd917b9322",
+  "alias": "CbdAnnouncementWebPart",
+  "componentType": "WebPart",
+  "supportsFullBleed": true,
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "CBD Announcement"
+      },
+      "description": {
+        "default": "CBD Announcement description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "CBD Announcement",
+        "detailLink": "####",
+        "view": 0,
+        "submenuTitle": "",
+        "isOverview": false,
+        "pdfheight": "100%"
+      }
+    }
+  ]
+}

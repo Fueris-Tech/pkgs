@@ -1,0 +1,41 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "ec9754b8-3f86-422e-b5a1-3d11b64bf429",
+  "alias": "CbdCommunicationWebPart",
+  "componentType": "WebPart",
+  "supportsFullBleed": true,
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "CBD Communication"
+      },
+      "description": {
+        "default": "CBD Communication description"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "CBD Communication",
+        "count": 10,
+        "link": "####",
+        "searchLink": "##",
+        "detailLink": "####",
+        "bannerImageUrl": "#",
+        "view": 0
+      }
+    }
+  ]
+}

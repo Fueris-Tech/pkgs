@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cbd-news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cbdNews/CbdNewsWebPart.js",
+          "manifest": "./src/webparts/cbdNews/CbdNewsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CbdNewsWebPartStrings": "lib/webparts/cbdNews/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.homecarousel .keen-slider__slide {
+    height: 100% !important;
+}
+
+.homecarousel .imageSlider {
+    height: 100% !important;
+}

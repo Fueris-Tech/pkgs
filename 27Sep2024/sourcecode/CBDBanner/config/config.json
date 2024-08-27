@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cbd-banner-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/cbdBanner/CbdBannerWebPart.js",
+          "manifest": "./src/webparts/cbdBanner/CbdBannerWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CbdBannerWebPartStrings": "lib/webparts/cbdBanner/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}

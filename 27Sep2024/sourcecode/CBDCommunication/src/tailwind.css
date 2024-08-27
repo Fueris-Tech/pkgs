@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Cairo:wght@200..1000&display=swap");
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.communication {
+    .grid {
+
+        &::after,
+        &::before {
+            content: none !important;
+        }
+
+    }
+
+    .searcharea{
+        select option:hover {
+            background-color: #006E7D;
+            color:#fff;
+        }
+    }
+
+}
