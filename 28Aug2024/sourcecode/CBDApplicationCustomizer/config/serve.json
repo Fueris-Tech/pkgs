@@ -1,0 +1,29 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/spfx-serve.schema.json",
+  "port": 4321,
+  "https": true,
+  "serveConfigurations": {
+    "default": {
+      "pageUrl": "https://cbddxb.sharepoint.com/sites/CBDZOOM",
+      "customActions": {
+        "5fd0cc92-4710-4e0e-aa92-df1c7612003a": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    },
+    "cbdAppCustomizer": {
+      "pageUrl": "https://cbddxb.sharepoint.com/sites/CBDZOOM",
+      "customActions": {
+        "5fd0cc92-4710-4e0e-aa92-df1c7612003a": {
+          "location": "ClientSideExtension.ApplicationCustomizer",
+          "properties": {
+            "testMessage": "Test message"
+          }
+        }
+      }
+    }
+  }
+}
