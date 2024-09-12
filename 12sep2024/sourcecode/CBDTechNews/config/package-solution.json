@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cbd-tech-news-client-side-solution",
+    "id": "4d6d3b2d-cadf-42db-879f-2a0571b9e534",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "cbd-tech-news description"
+      },
+      "longDescription": {
+        "default": "cbd-tech-news description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "cbd-tech-news Feature",
+        "description": "The feature that activates elements of the cbd-tech-news solution.",
+        "id": "416bb218-ebb1-43a4-85e5-bb5d795c508a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cbd-tech-news.sppkg"
+  }
+}

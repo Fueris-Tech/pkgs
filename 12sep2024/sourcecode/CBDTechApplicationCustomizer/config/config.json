@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "cbd-tech-application-customizer-application-customizer": {
+      "components": [
+        {
+          "entrypoint": "./lib/extensions/cbdTechApplicationCustomizer/CbdTechApplicationCustomizerApplicationCustomizer.js",
+          "manifest": "./src/extensions/cbdTechApplicationCustomizer/CbdTechApplicationCustomizerApplicationCustomizer.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "CbdTechApplicationCustomizerApplicationCustomizerStrings": "lib/extensions/cbdTechApplicationCustomizer/loc/{locale}.js"
+  }
+}
