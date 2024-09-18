@@ -1,0 +1,37 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "9f379630-898a-4317-89d3-23a2d07dbed3",
+  "alias": "CbdTechHomeCarouselWebPart",
+  "componentType": "WebPart",
+  "version": "*",
+  "manifestVersion": 2,
+  "requiresCustomScript": false,
+  "supportsFullBleed": true,
+  "supportedHosts": [
+    "SharePointWebPart",
+    "TeamsPersonalApp",
+    "TeamsTab",
+    "SharePointFullPage"
+  ],
+  "supportsThemeVariants": true,
+  "preconfiguredEntries": [
+    {
+      "groupId": "5c03119e-3074-46fd-976b-c60198311f70",
+      "group": {
+        "default": "Advanced"
+      },
+      "title": {
+        "default": "CBD Tech Home Carousel"
+      },
+      "description": {
+        "default": "CBD Tech Home Carousel"
+      },
+      "officeFabricIconFontName": "Page",
+      "properties": {
+        "description": "CBD Tech Home Carousel",
+        "count": 3,
+        "playspeed": 4000
+      }
+    }
+  ]
+}

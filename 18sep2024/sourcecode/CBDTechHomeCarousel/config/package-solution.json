@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "cbd-tech-home-carousel-client-side-solution",
+    "id": "594567f6-0e92-486d-8d0f-b93241b9304f",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "cbd-tech-home-carousel description"
+      },
+      "longDescription": {
+        "default": "cbd-tech-home-carousel description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "cbd-tech-home-carousel Feature",
+        "description": "The feature that activates elements of the cbd-tech-home-carousel solution.",
+        "id": "32cb22fc-c817-4db3-8fcd-0d5bd12366ac",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/cbd-tech-home-carousel.sppkg"
+  }
+}

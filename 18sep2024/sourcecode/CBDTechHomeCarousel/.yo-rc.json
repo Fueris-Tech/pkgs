@@ -1,0 +1,21 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "18.18.2",
+    "sdksVersions": {
+      "@microsoft/microsoft-graph-client": "3.0.2",
+      "@microsoft/teams-js": "2.12.0"
+    },
+    "version": "1.18.0",
+    "libraryName": "cbd-tech-home-carousel",
+    "libraryId": "594567f6-0e92-486d-8d0f-b93241b9304f",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "cbd-tech-home-carousel",
+    "solutionShortDescription": "cbd-tech-home-carousel description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
